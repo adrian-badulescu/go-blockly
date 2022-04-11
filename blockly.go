@@ -21,7 +21,7 @@ func RegisterBlocklyAutomationEndpoint(c *gin.Engine) {
 }
 
 
-func main() {
-	router := gin.Default()
-	RegisterBlocklyAutomationEndpoint(router)
-}
+// func main() {
+// 	router := gin.Default()
+// 	RegisterBlocklyAutomationEndpoint(router)
+// }
