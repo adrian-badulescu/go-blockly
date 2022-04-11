@@ -1,4 +1,4 @@
-package main
+package blockly
 
 import (
 	"fmt"
