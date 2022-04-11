@@ -15,7 +15,7 @@ func RegisterBlocklyAutomationEndpoint(c *gin.Engine) {
 	c.StaticFS("/BlocklyAutomation", http.Dir(os.Getenv("GOPATH")))
 
 	c.StaticFS("/BlocklyAutomationa", http.Dir("."))
-	c.StaticFS("/BlocklyAutomationb", http.Dir(os.Getenv("GOPATH")+"/pkg/mod/github.com/adrian-badulescu/go-blockly@v0.0.0-20220411174346-b8e69f92bb55"))
+	c.StaticFS("/BlocklyAutomationb", http.Dir(os.Getenv("GOPATH")+"/pkg/mod/github.com/adrian-badulescu/go-blockly@v0.0.0-20220411180535-5dfd966c0cd0"))
 
 	fmt.Println(http.Dir(os.Getenv("GOPATH")))
 
